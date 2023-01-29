@@ -148,6 +148,25 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-wrap w-full mb-20">
+              <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Management Information System</h1>
+                <div className="h-1 w-20 bg-pink-500 rounded"></div>
+              </div>
+              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+                Management Information System is the study of people, organizations, technology and the relationship among them. Introducing information system will increase the value of the business.
+                The Westrac portal will increase the business value through the following:
+                Operational Excellence: the information system will increase flow of value to the customer and improve efficiency and productivity which will result in higher profits.
+                New products, services and Business Models: The Westrac portal ensures that customers received the best customer service at their fingertips and provide real-time web services.
+                Customer and supplier Intimacy: Customers will be satisfied that purchases can be done at any time and become satisfied customers. Satisfied will become repeated customers and purchase more.
+                Improved Decision Making:  The portal will keep a track record of inventory therefore will improve misallocation of item and poor response item.
+                Competitive Advantage: The portal will be an advantage over competitors since it is very convenient. This will improve performance and better response to customer.
+                Survival: The Westrac portal will very modernised therefore the business will keep up with competitors.
+
+              </p>
+            </div>
+          </div>
         </section>
       </main>
     </>
