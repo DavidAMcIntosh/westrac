@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -134,13 +135,16 @@ export default function Home() {
                 <br /><br /><strong>Note:</strong> Customers’ Accounts can have multiple names of persons authorized to purchase under the account but not all of them can have access to the portal.
                 The owner of the account decides if only him/her will have access or if they want to add someone else.
                 <br /><br />
-                The website has a Dashboard where customers are able to see a Purchasing history with a paragraph showing Invoices and Returns, the discount if the account has any, a profile picture, contact information, etc.
+                The website has a Dashboard where customers are able to see a Purchasing history with a bar graph showing Invoices and Returns, the discount if the account has any, a profile picture, contact information, etc.
                 <br />
                 In order to protect the discount from the customer’s account specifically those of the employees, each one must provide information of the vehicle that each one owns, to keep track of the parts being bought for that specific vehicle. The information of the vehicles can be accesses by those with access to the client portal.
                 <br />
                 Approximately 300 customers access the Portal for information their accounts and to order parts through the system.
                 <br />
                 It can be accessed from a cell phone once the app is downloaded, and the Company’s Accounts Receivables Department approves access.
+                <br />
+                <br />
+                <Link href="https://portal.westrac.bz/login" className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Visit Portal</Link>
               </p>
             </div>
           </div>
